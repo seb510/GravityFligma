@@ -54,14 +54,12 @@ h2 {
     letter-spacing: 0.3em;
     text-align: center;
     transition: all 0.5s ease;
-
 }
 
 .btn:hover{
     background: #1d1381;
     color: white;
 }
-
 
 .header {
     height: 95vh;
@@ -70,10 +68,6 @@ h2 {
 .nav {
     padding-top: 59px;
     margin-bottom: 127px;
-}
-
-.logo {
-
 }
 
 .search {
@@ -94,10 +88,6 @@ h2 {
 
 .offer-cont__text {
     margin: 30px 0 56px;
-}
-
-.offer-content__btn{
-
 }
 
 .hero {
@@ -134,16 +124,8 @@ h2 {
     padding-top: 137px;
 }
 
-.about {
-
-}
-
 .about__title {
     margin-bottom: 30px;
-}
-
-.about__text {
-
 }
 
 .about__author {
@@ -158,14 +140,10 @@ h2 {
 
 .about__dop {
     margin-bottom: 0;
-
 }
 
 .services {
     padding-top: 142px;
-}
-.section-title {
-
 }
 
 .section-title__label {
@@ -176,19 +154,13 @@ h2 {
     margin-bottom: 40px;
 }
 
-.section-title__heading {
-
-}
-
 .serv-list {
     color: #8D8D8D;
     margin-top: 67px;
-
 }
 
 .serv-list__item {
     margin-bottom: 20px;
-
 }
 
 .serv-list-left {
@@ -265,7 +237,6 @@ h2 {
 
 .easy__title {
     margin-bottom: 30px;
-
 }
 
 .easy__text {
@@ -320,7 +291,6 @@ h2 {
 .works-wrap {
     flex-wrap: wrap;
     margin-top: 108px;
-
 }
 
 .works-wrap__item {
@@ -360,6 +330,7 @@ h2 {
 .tabs__content {
     display: none !important; /* по умолчанию прячем все блоки */
 }
+
 .tabs__content.active {
     display: flex !important;  /* по умолчанию показываем нужный блок */
 }
@@ -379,8 +350,8 @@ h2 {
 
 .contributor__title {
     margin-bottom: 10px;
-
 }
+
 .section-title__heading-review {
     font-size: 20px;
 }
@@ -421,6 +392,7 @@ h2 {
 .clients-row__item {
     transition: all 1s ease;
 }
+
 .clients-row__item:hover {
     -moz-transform: scale(1.1) translate(0px, -3px);
     -webkit-transform: scale(1.1) translate(0px, -3px);
@@ -428,7 +400,6 @@ h2 {
     -ms-transform: scale(1.1) translate(0px, -3px);
     transform: scale(1.1) translate(0px, -3px);
 }
-
 
 .footer {
     height: 240px;
@@ -467,18 +438,22 @@ h2 {
         top: 0;
         margin-top: 60px;
     }
+
     .vh-dependent {
         height: auto;
         display: flex;
         align-items: center;
     }
+
     .about {
         margin-top: 60px;
     }
+
     .collage {
         position: relative;
         width: 100%;
     }
+
     .easy {
         margin-left: 0;
         margin-top: 110px;
@@ -489,23 +464,32 @@ h2 {
 }
 
 @media screen and (max-width: 576px) {
+    .problems {
+        padding-top: 200px;
+    }
+
     .serv-list_left {
         margin-left: 0;
     }
+
     .works-wrap__item {
         width: 100%;
         margin-bottom: 40px;
     }
+
     .clients-row {
         flex-direction: column;
     }
+
     .clients-row__item {
         margin-bottom: 70px;
         text-align: center;
     }
+
     .work-tabs {
         flex-direction: column
     }
+
     .work-tabs__item {
         margin-bottom: 40px;
     }
